@@ -1,0 +1,89 @@
+{
+  "botInfo": {
+    "name": "𝐄𝐒𝐁-𝐁𝐎𝐓",
+    "prefix": "/",
+    "token": "8548106929:AAEhdSwJEUHQ9IxFFJFRMIM3GmeEF4RzDCE",
+    "timezone": "Asia/Dhaka",
+    "usePrefix": true
+  },
+  "ownerInfo": {
+    "mainOwner": [
+      {
+        "name": "MOHAMMAD BADOL",
+        "id": "6954597258"
+      },
+      {
+        "name": "EMON HAWLADAR",
+        "id": "5079311859"
+      }
+    ],
+    "botAdmins": [
+      "6954597258",
+      "5079311859"
+    ]
+  },
+  "settings": {
+    "prefixModeEnabled": false,
+    "allowCustomPrefix": true,
+    "allowInboxMode": true,
+    "onlyAdmin": false,
+    "onlyAdminMessage": "⚠️ This bot is in admin-only mode. Only admins can use commands.",
+    "disabledCommands": [],
+    "disabledEvents": [],
+    "ignoreOldMessages": {
+      "enabled": true
+    },
+    "showCommandSuggestions": {
+      "enabled": true
+    },
+    "groupApproval": {
+      "enabled": true
+    },
+    "dmApproval": {
+      "enabled": true
+    },
+    "levelSystem": {
+      "enabled": true,
+      "expPerMessage": 5,
+      "expToLevelUp": 100
+    },
+    "adminReactionUnsend": {
+      "enabled": true,
+      "emoji": "👍"
+    },
+    "botStartNotification": {
+      "enabled": false,
+      "sendToAdmins": true,
+      "sendToThreads": false,
+      "threadIds": []
+    },
+    "logLevel": "info",
+    "language": "bn"
+  },
+  "database": {
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://badolbot009:badolbot007@cluster0.gdrhlbo.mongodb.net/ESB-BOT?retryWrites=true&w=majority&appName=Cluster0"
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 3000,
+    "passwordProtection": {
+      "enable": false,
+      "password": ""
+    }
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": "badolbotkey"
+    }
+  },
+  "autoUptime": {
+    "enable": true,
+    "url": "",
+    "timeInterval": 240
+  }
+}

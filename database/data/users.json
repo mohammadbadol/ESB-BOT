@@ -1,0 +1,19 @@
+{
+  "6954597258": {
+    "id": "6954597258",
+    "firstName": "",
+    "lastName": "",
+    "username": "",
+    "pfpUrl": "",
+    "location": "",
+    "exp": 0,
+    "money": 0,
+    "level": 1,
+    "lastDailyClaim": "",
+    "banned": false,
+    "dmApproved": false,
+    "warnings": {},
+    "messageCount": {},
+    "createdAt": 1784867047247
+  }
+}
